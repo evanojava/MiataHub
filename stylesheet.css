@@ -1,0 +1,66 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/* set up navigation bar */
+.navigation-bar {
+
+  background-color: #333;
+  overflow: hidden;
+
+}
+
+@font-face {
+  font-family: miataHubFont;
+  src: url(GemunuLibre-Light.ttf);
+}
+
+.navigation-bar a {
+
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 2% 2%;
+  text-decoration: none;
+  font-size: 3vw;
+  font-family: miataHubFont;
+
+}
+
+#miataHubIcon {
+
+  display: block;
+  margin: 0 auto;
+  
+
+
+}
+
+
+#home {
+
+  background-color: #1E90FF;
+
+}
+
+.bg {
+  /* The image used */
+  background-image: url("bluemiata.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about-us {
+
+  margin-top: 1%;
+  font-size: 2vw;
+  padding: 2% 2%;
+
+}
